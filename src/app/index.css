@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: -0.05em;
+  color: #fff;
+}
+
+body {
+  background: #222;
+}
+
+::-webkit-scrollbar {
+  background: #222222;
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100rem;
+  border: #222 solid .25rem;
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
+}

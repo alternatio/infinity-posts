@@ -1,0 +1,46 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: min(100%, 30rem);
+  background: #333;
+  gap: 1rem;
+}
+
+.postTop {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.postTitle {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.postBody {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.25rem;
+  color: #888;
+}
+
+.link {
+  width: 100%;
+  padding: .5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100rem;
+  background: #222222;
+  transition: .1s linear;
+}
+
+.link:hover {
+  background: #2a2a2a;
+}
